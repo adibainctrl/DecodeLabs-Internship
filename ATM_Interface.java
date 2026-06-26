@@ -54,7 +54,7 @@ class ATM{
     System.out.println("3. Withdraw Money");
     System.out.println("4. Exit");
     System.out.println("-----------------------------");
-    System.out.println("Enter your choice: ");
+    System.out.print("Enter your choice: ");
   }
   public double getAmount(){
     double amount = 0;
@@ -86,7 +86,7 @@ class ATM{
       }
       else if(choice == 2){
         System.out.println("\n--- Deposit ---");
-        System.out.println("Enter amount to deposit: Rs. ");
+        System.out.print("Enter amount to deposit: Rs. ");
         double amt = getAmount();
         account.deposit(amt);
       }
