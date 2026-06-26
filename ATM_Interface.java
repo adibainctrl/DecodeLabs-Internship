@@ -85,9 +85,9 @@ class ATM{
         System.out.println("Your current balance is: Rs. " + account.getBalance());
       }
       else if(choice == 2){
-        System.out.printn("\n--- Deposit ---");
+        System.out.println("\n--- Deposit ---");
         System.out.println("Enter amount to deposit: Rs. ");
-        double amt getAmount();
+        double amt = getAmount();
         account.deposit(amt);
       }
       else if(choice == 3){
